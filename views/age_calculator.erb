@@ -1,0 +1,15 @@
+
+<% if @result %>
+  <h1>the result is <%= @result %></h1>
+<% end %>
+
+<form  method="get" action="/get_age">
+  <input type="number" name="date_of_birth" placeholder="date_of_birth" step="0.01" value="<%= @date_of_birth %>">
+  <button>Get Age!</button>
+</form>
+
+
+
+
+  
+
